@@ -2,7 +2,7 @@ const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("Hello, World! Your Node.js app is running on EC2!\n");
+  res.end("Hello, World! Your Node.js app is running on Parth's AWS EC2!\n");
 });
 
 server.listen(3000, () => {
